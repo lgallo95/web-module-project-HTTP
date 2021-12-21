@@ -32,6 +32,7 @@ const EditMovieForm = (props) => {
         });
     }
 
+	
     const handleSubmit = (e) => {
         e.preventDefault();
         axios.post(`http://localhost:9000/api/movies/`, movie)
